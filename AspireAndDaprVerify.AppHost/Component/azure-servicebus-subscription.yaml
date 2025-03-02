@@ -1,0 +1,8 @@
+﻿apiVersion: dapr.io/v1alpha1
+kind: Subscription
+metadata:
+  name: azure-servicebus-subscription
+spec:
+  topic: ganeshmahadev
+  route: /subscribe  # Route defined in the controller
+  pubsubname: servicebus-pubsub

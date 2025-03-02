@@ -1,0 +1,6 @@
+@AspireAndDaprClientVerify_HostAddress = http://localhost:5027
+
+GET {{AspireAndDaprClientVerify_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

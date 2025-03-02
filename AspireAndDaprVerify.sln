@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAndDaprVerify", "AspireAndDaprVerify\AspireAndDaprVerify.csproj", "{E1D1A3FD-2C49-4616-AE71-EAADE25D4CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAndDaprVerify.AppHost", "AspireAndDaprVerify.AppHost\AspireAndDaprVerify.AppHost.csproj", "{9BED24DA-27AE-4B5E-92E9-1003158A4F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAndDaprVerify.ServiceDefaults", "AspireAndDaprVerify.ServiceDefaults\AspireAndDaprVerify.ServiceDefaults.csproj", "{F85A0564-2526-4C19-A7EB-21CDCC0ABCDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireAndDaprClientVerify", "AspireAndDaprClientVerify\AspireAndDaprClientVerify.csproj", "{D0470C82-D421-4F36-A4A6-ED7F353B36FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{164484B6-D992-4F9B-BCD1-1E6BE384399D}"
+	ProjectSection(SolutionItems) = preProject
+		ServiceBus.Yaml = ServiceBus.Yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1D1A3FD-2C49-4616-AE71-EAADE25D4CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D1A3FD-2C49-4616-AE71-EAADE25D4CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D1A3FD-2C49-4616-AE71-EAADE25D4CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D1A3FD-2C49-4616-AE71-EAADE25D4CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BED24DA-27AE-4B5E-92E9-1003158A4F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BED24DA-27AE-4B5E-92E9-1003158A4F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BED24DA-27AE-4B5E-92E9-1003158A4F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BED24DA-27AE-4B5E-92E9-1003158A4F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85A0564-2526-4C19-A7EB-21CDCC0ABCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85A0564-2526-4C19-A7EB-21CDCC0ABCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85A0564-2526-4C19-A7EB-21CDCC0ABCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85A0564-2526-4C19-A7EB-21CDCC0ABCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0470C82-D421-4F36-A4A6-ED7F353B36FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0470C82-D421-4F36-A4A6-ED7F353B36FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0470C82-D421-4F36-A4A6-ED7F353B36FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0470C82-D421-4F36-A4A6-ED7F353B36FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
